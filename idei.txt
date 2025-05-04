@@ -1,0 +1,39 @@
+Structura tastatura:
+
+,------------------------------. 
+| ROTARY ENCODER  | OLED SCREEN|
+|-----------------|------------|
+| F13 | F14 | F15 |    F22     |
+|-----|-----|-----|------------'
+| F16 | F17 | F18 |
+|-----|-----|-----|
+| F19 | F20 | F21 |
+`-----------------'
+
+Componente:
+Placa development - RaspberryPi Pico
+Rotary encoder    - EC11    (20 pozitii + push button)
+OLED Screen       - SSD1306 (128x32, 0.91", I2C)
+Switches          - Shein
+Diode             - 1N4148  (Fast switching)
+
+Conectare Switchuri - COL2ROW
+
+Pin extern - Pin Raspberry
+
+COL0       -
+COL1       -
+COL2       -
+ROW1       -
+ROW2       -
+ROW3       -
+
+CONFIRM    -
+OLED_SDA   -
+OLED_SCL   - 
+ENC_PUSH   -
+ENC_A      -
+ENC_B      -
+BACK       -
+GND        -
+3V3        -
