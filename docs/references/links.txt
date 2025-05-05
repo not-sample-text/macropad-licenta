@@ -1,0 +1,2 @@
+1: https://github.com/codemicro/macropad
+2: https://github.com/Quarren42/SPIN
